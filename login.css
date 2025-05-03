@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://lh7-us.googleusercontent.com/nR6n2n4TvaJpcLktb9iIjkiF2GmqMEg8Dw9-rlLIvHjA8ETJL6FLV7Gqt5mdamipfw5J7tQvF6gaqAFjXutW3PX5i-hwauCgsTf-VaCDjVxjWcurM3CBlyGyfvCZ-uoLq8aKY1C7IZ7ueTjSvZHrJg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+section>article{
+    width: 80%;
+    height: inherit;
+    margin: 0 auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 440px;
+    height: 443px;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 11px 0px white;
+    backdrop-filter: blur(5px);
+}
+
+form h2{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+form>.formgroup{
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+form>.formgroup>label{
+    display: block;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.formgroup>input{
+    border: none;
+}
+
+
+input[type="text"],
+input[type="Email"],
+input[type="tel"],
+input[type="Password"]{
+
+    width: 102%;
+    height: 44px;
+    padding: 0px 20px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.208);
+    color: white;
+}
+
+input::placeholder{
+    color: #d0cfcf;
+}
+
+.formgroup > input[type="submit"]{
+    padding: 10px;
+    color: white;
+    background-color: rgba(30,143,255,0.584);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+}
